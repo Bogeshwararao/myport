@@ -41,4 +41,4 @@ import Kbr from "../assets/kbr.png";
 
   )
 }
-export default Navbar;
+export default Navbar
