@@ -13,17 +13,18 @@ const Home = () => {
         </div>
         {/*introduction*/}
         <br></br>
-        <p className='text-pink-600 '>Hi, my name is</p>
+        <p className='text-pink-600 '>Hi, my name is ,
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
          BogeshwaraRao
         </h1>
-        <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-          I'm a Full Stack Developer.
-        </h2>
+        </p>
+        
+        <h4 className='text-2xl text-pink-600 '>About me</h4>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I’m a full-stack developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I’m focused on
-          building responsive full-stack web applications.
+        I’m a Computer Engineering student at Sathyabama University. Basically,
+        I’m from Rajaumundry,
+        I’m familiar with Html, Css, Javascript, React, Phyton,  and Java. 
+        I’m a Technical Team Member @ACM-SIST student Chapter.
         </p>
     
       </div>
