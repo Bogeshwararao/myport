@@ -23,7 +23,7 @@ const Home = () => {
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
         I’m a Computer Engineering student at Sathyabama University. Basically,
         I’m from Rajaumundry,
-        I’m familiar with Html, Css, Javascript, React, Phyton,  and Java. 
+        I’m familiar with Html, Css, Javascript, React js, Python,  and Java. 
         I’m a Technical Team Member @ACM-SIST student Chapter.
         </p>
     
