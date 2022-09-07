@@ -13,13 +13,15 @@ const Home = () => {
         </div>
         {/*introduction*/}
         <br></br>
-        <p className='text-pink-600 '>Hi, my name is ,
+        <p className='text-red-700 '>Hi, my name is ,
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
          BogeshwaraRao
         </h1>
         </p>
         
-        <h4 className='text-2xl text-pink-600 '>About me</h4>
+        <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-red-700 py-3'>
+              About
+            </p>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
         I’m a Computer Engineering student at Sathyabama University. Basically,
         I’m from Rajaumundry,
