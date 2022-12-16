@@ -3,6 +3,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './App.css';
 import { BrowserRouter, Route,Link,Routes } from 'react-router-dom';
+
+
+
 import Home from './Components/Home';
 import Skills from './Components/Skills';
 import About from './Components/About';
