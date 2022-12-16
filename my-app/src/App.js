@@ -1,39 +1,25 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import React from 'react';
+import {Routes,Route} from 'react-router-dom';
 import './App.css';
-import { BrowserRouter, Route,Link,Routes } from 'react-router-dom';
 
 
-
-import Home from './Components/Home';
-import Skills from './Components/Skills';
-import About from './Components/About';
-import Contact from './Components/Contact';
+import Home from './Pages/Home';
+import Project from './Pages/Project';
+import Contact from './Pages/Contact';
+import About from './Pages/About';
 const App = () => {
   return (
-    <BrowserRouter>
-    <div className="App">
-          <Navbar bg="white" variant="white">
-        <Container>
-          <Nav className="me-auto">
-            <Nav.Link as={Link} to="/Home" className="justify-content-end">Home</Nav.Link>
-            <Nav.Link as={Link} to="/Skills">Skills</Nav.Link>
-            <Nav.Link as={Link} to="/About">About</Nav.Link>
-            <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
       <div>
-        <Routes>
-          <Route path="/Home" element={Home}></Route>
-          <Route path="/Skills" element={Skills}></Route>
-          <Route path="/About" element={About}></Route>
-          <Route path="/Contact" element={Contact}></Route>
-        </Routes>
+          <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/project" element={<Project /> } />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+          </Routes>
+
+
+
       </div>
-    </div>
-    </BrowserRouter>
   );
 }
 
