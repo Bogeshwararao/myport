@@ -9,11 +9,11 @@ const Projects = () => {
       <div className="my-5">
         <Typed
           className="typed d-flex justify-content-center font-weight-bold"
-          strings={["Projects coming soon..."]}
+          strings={["Projects..."]}
           typeSpeed={40}
         />
       </div>
-      {/* <div className="container-fluid mb-5">
+      <div className="container-fluid mb-5">
         <div className="row">
           <div className="col-10 mx-auto">
             <div className="row gy-4">
@@ -32,7 +32,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
        <div className="justify-content-center  order-lg-2 header-img pt-4">
                         <h2 >Contact me.</h2>
                       </div>

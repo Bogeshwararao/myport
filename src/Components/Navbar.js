@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container">
         <NavLink className="navbar-brand" to="/">
           <img src={logo} alt="logo" className="logo" />

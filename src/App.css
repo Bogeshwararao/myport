@@ -182,13 +182,13 @@ nav .nav-link{
   padding: 7px 20px;
   border-radius: 50px;
   transition: 0.5s;
-  color: var(--primary-v);
-  border: 2px solid var(--primary-v);
+  color: #000;
+  border: 2px solid var(#000);
   text-decoration: none;
 }
 
 .btn-repo:hover {
-  background: #610f70;
+  background: #000;
   color: #fff;
 }
 
