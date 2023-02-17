@@ -2,7 +2,14 @@ import React from 'react'
 import Typed from "react-typed";
 import main from "../Images/main.png";
 import IconCard from "../Components/Iconcard";
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const Home = () => {
+  useEffect(()=>{
+    Aos.init({duration: 1800});
+},[]);
   return (
     <>
 
@@ -21,8 +28,10 @@ const Home = () => {
                   strings={["Hi" , "I'am Bogesh."]}
                   typeSpeed={80}
                 />
-
+              <div data-aos="fade-up">
                 <h2 >A Enthusiastic Web developer.</h2>
+                </div>
+                <div data-aos="fade-up">
                 <h5 className="text-muted" style={{ inlineHeight: "1.5" }}>
                   I am a Second Year Student currently undertaking my
                   Bachelors in Computer Science and Engineering from
@@ -31,7 +40,7 @@ const Home = () => {
                   facinated about learning new technologies, and to play
                   around with them.
                 </h5>
-                
+                </div>
                 {/* <div className="mt-3">
                   <NavLink to="/Contact" className="btn-contactMe">
                     Contact Me
@@ -39,9 +48,9 @@ const Home = () => {
                 </div> */}
                 <br></br>
                 <br></br>
-                 <h2 >Contact me.</h2>
+                 <h2 data-aos="fade-up" >Contact me.</h2>
                  <br></br>
-                      <div className="d-flex justify-content-center">
+                      <div className="d-flex justify-content-center" data-aos="fade-up">
                         <IconCard  
                 iconsrc="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg"
                 link="https://www.linkedin.com/in/bogesh-wararao-760530221/"/>

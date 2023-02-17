@@ -10,6 +10,9 @@
   --primary-purple: #4B29CB;
   --ease-out-quad: cubic-bezier(0.25,0.46,0.45,0.94);
 }
+body{
+  font-family: 'Outfit', sans-serif;
+}
 #navbar-top1{
   height: 4.5rem;
 }
@@ -23,9 +26,24 @@
   margin-bottom:0.5rem;
 }
 .nav-item{
-  text-color:black;
+    text-color:black;
     font-weight:500;
     font-size:10px;
+}
+nav .nav-link{
+  letter-spacing: .03rem;
+  cursor: pointer;
+}
+.nav-link{
+  /* color: var(--primary-white) !important; */
+ margin-left: 0.7rem;
+  margin-right: 0.7rem;
+
+  /* border-top: 0.18rem solid var(--primary-white); */
+}
+.nav-item{
+  font-weight: bold;
+  font-size: 2rem;
 }
 /* .navbar-nav > a.active , .navbar-nav>  .nav-link:focus{
   
@@ -41,12 +59,16 @@ a {
 
 
 /**************NAVBAR***************/
+.logo{
+  width:2.5rem;
+  height:2.5rem;
+}
 #nav-items-fin{
   margin-left:20.5rem;
 }
 .acmnavlogo{
-  width: 4.0rem;
-  height: 4.0rem;
+  width: 2.0rem;
+  height: 2.0rem;
 }
 /* #Nav-midlle-items:focus{
   border-bottom: 0.18rem solid var(--primary-blue);
@@ -149,4 +171,8 @@ a {
 .btn-repo:hover {
   background: #000;
   color: #fff;
+}
+/*******************SKILL**************/
+#skill-main{
+  margin-top:8.5rem;
 }

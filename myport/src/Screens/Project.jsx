@@ -3,7 +3,14 @@ import ProjectCard from "../Components/ProjectCard";
 import ProjectData from "../Components/ProjectData";
 import Typed from "react-typed";
 import IconCard from "../Components/Iconcard";
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const Projects = () => {
+  useEffect(()=>{
+    Aos.init({duration: 1800});
+},[]);
   return (
     < >
     <div className="Project">

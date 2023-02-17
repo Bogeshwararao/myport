@@ -9,6 +9,7 @@ import Home from "../Screens/Home";
 import Skills from "../Screens/Skills"
 import Project from "../Screens/Project"
 import Blog from "../Screens/Blog"
+import logo from "../Images/logokbr.jpg"
 
 function CollapsibleExample() {
   return (
@@ -16,7 +17,7 @@ function CollapsibleExample() {
    
     <Navbar collapseOnSelect expand="lg" bg="black" variant="dark"  fixed="top"  >
       <Container>
-        <Navbar.Brand href="#home">KBR</Navbar.Brand>
+        <Navbar.Brand href="#home"><img src={logo} alt="logo" className="logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>

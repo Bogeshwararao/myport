@@ -2,7 +2,14 @@ import React from 'react'
 import SkillCard from '../Components/Skillcard'
 import IconCard from '../Components/Iconcard'
 import Typed from "react-typed";
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const Skills = () => {
+  useEffect(()=>{
+    Aos.init({duration: 1800});
+},[]);
   return (
     <section id="skill" className="Container-fluid mb-5">
       <div className="row">
@@ -14,7 +21,7 @@ const Skills = () => {
           typeSpeed={40}
         />
       </div>
-          <h2>Programming Languages:</h2>
+          <h2 >Programming Languages:</h2>
           <div className="pt-2 pt-lg-1 d-flex mr-auto flex-row">
             <SkillCard iconsrc="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/c.svg" />
             <SkillCard iconsrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" />
@@ -28,7 +35,7 @@ const Skills = () => {
           </div>
           {/*  */}
 
-          <h2>FrameWorks:</h2>
+          <h2 >FrameWorks:</h2>
           <div className="pt-2 pt-lg-1 d-flex mr-auto flex-row">
             <SkillCard iconsrc="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/bootstrap.svg" />
             <SkillCard iconsrc="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/react.svg" />
@@ -38,8 +45,8 @@ const Skills = () => {
           </div>
 
           {/*  */}
-          <h2>Tools and Technologies:</h2>
-          <div className="col-md-10 pt-2 pt-lg-1 d-flex mr-auto flex-row">
+          <h2 >Tools and Technologies:</h2>
+          <div className="col-md-10 pt-2 pt-lg-1 d-flex mr-auto flex-row" >
             {/* <SkillCard iconsrc="https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg" /> */}
        
             <SkillCard iconsrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" />
@@ -50,9 +57,9 @@ const Skills = () => {
         </div>
       </div>
               <div className="justify-content-center  order-lg-2 header-img pt-4">
-                        <h2 >Contact me.</h2>
+                        <h2 data-aos="fade-up">Contact me.</h2>
                       </div>
-                   <div className="d-flex justify-content-center  order-lg-2 header-img pt-4">
+                   <div className="d-flex justify-content-center  order-lg-2 header-img pt-4" data-aos="fade-up">
                           <IconCard  
                   iconsrc="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg"
                   link="https://www.linkedin.com/in/bogesh-wararao-760530221/"/>
