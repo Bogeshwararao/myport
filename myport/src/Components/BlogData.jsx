@@ -12,7 +12,7 @@ const BlogData = [
     published: "Sep 11, 2021",
     read: "4",
     imgsrc: debug,
-    link: "https://medium.com/@AvinashMahanthi/debug-your-web-application-in-mobile-like-a-pro-ebca154d579b",
+    link: "https://hashnode.com/@Bogesh",
   },
   {
     title: "Understanding API to your use case for absolute beginners.",
@@ -21,7 +21,7 @@ const BlogData = [
     published: "Nov 19, 2020",
     read: "4",
     imgsrc: Api,
-    link: "https://medium.com/@AvinashMahanthi/understanding-api-to-your-use-case-for-absolute-beginners-b05138032e7e",
+    link: "https://hashnode.com/@Bogesh",
   },
   {
     title: "Git and Introduction to basic concepts of GitHub.",
@@ -30,7 +30,7 @@ const BlogData = [
     published: "Aug 12, 2020",
     read: "5",
     imgsrc: git,
-    link: "https://medium.com/@AvinashMahanthi/git-and-introduction-to-basic-concepts-of-github-a7e7afc4705d",
+    link: "https://hashnode.com/@Bogesh",
   },
   // {
   //   title: "What is Flutter? Here is everything you should know.",
@@ -48,7 +48,7 @@ const BlogData = [
     published: "May 29, 2020",
     read: "4",
     imgsrc: Ai,
-    link: "https://medium.com/@AvinashMahanthi/what-where-and-how-to-study-ai-2f3f84065479",
+    link: "https://hashnode.com/@Bogesh",
   },
 ];
 

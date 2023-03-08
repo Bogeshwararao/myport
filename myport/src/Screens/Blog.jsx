@@ -3,7 +3,14 @@ import Typed from "react-typed";
 import BlogCard from "../Components/BlogCard"
 import BlogData from "../Components/BlogData"
 import IconCard from "../Components/Iconcard";
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const Bolgs = () => {
+    useEffect(()=>{
+        Aos.init({duration: 1800});
+    },[]);
   return (
     <>
     <div id="skill-main">
@@ -13,7 +20,7 @@ const Bolgs = () => {
         strings={["Blogs..."]}
         typeSpeed={40}
       />
-      <div className="row">
+      {/* <div className="row">
         {BlogData.map((value, ind) => {
           return (
             <BlogCard
@@ -27,7 +34,7 @@ const Bolgs = () => {
             ></BlogCard>
           );
         })}
-      </div>
+      </div> */}
       <div className="justify-content-center  order-lg-2 header-img pt-4">
                         <h2 >Contact me.</h2>
                       </div>

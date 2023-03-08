@@ -3,7 +3,7 @@ import React from "react";
 
 const ProjectCard = (props) => {
   return (
-    <div className="col-md-4 col-10 mx-auto">
+    <div className="col-md-4 col-10 mx-auto" data-aos="flip-left" >
       <div className="card project-card">
         <img
           className="card-img-top Project-Card-img"

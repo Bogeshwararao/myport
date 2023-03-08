@@ -50,7 +50,7 @@ const Home = () => {
                 <br></br>
                  <h2 data-aos="fade-up" >Contact me.</h2>
                  <br></br>
-                      <div className="d-flex justify-content-center" data-aos="fade-up">
+                      <div className="d-flex justify-content-center">
                         <IconCard  
                 iconsrc="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg"
                 link="https://www.linkedin.com/in/bogesh-wararao-760530221/"/>

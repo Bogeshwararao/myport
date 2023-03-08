@@ -2,9 +2,9 @@ import React from "react";
 
 const BlogCard = (props) => {
   return (
-    <div className="col-md-5 col-10 mx-auto my-2">
+    <div className="col-md-5 col-10 mx-auto my-2" data-aos="flip-left">
       <div className="card blog-card">
-        <a href={props.link}>
+        <a href={props.link} target="_blank">
           <img
             className="card-img-top Project-Card-img"
             src={props.imgsrc}
