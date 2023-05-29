@@ -17,7 +17,7 @@ const Bolgs = () => {
     <div id="blog" className="my-4 mx-auto blog px-5">
       <Typed
         className="typed d-flex justify-content-center font-weight-bold pb-2"
-        strings={["Blogs..."]}
+        strings={["Blogs...."]}
         typeSpeed={40}
       />
       <div className="row">
