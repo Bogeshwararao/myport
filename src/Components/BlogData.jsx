@@ -1,4 +1,4 @@
-import git from "../Images/debug.jpeg"
+import git from "../Images/git.jpeg"
 
 const BlogData = [
   {
