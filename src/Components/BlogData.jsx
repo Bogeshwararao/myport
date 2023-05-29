@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import git from "../Images/git.jpeg"
 
 const BlogData = [
