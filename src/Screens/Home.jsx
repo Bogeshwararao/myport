@@ -25,7 +25,7 @@ const Home = () => {
               <div className=" order-lg-2 header-img pt-4" >
                 <Typed
                   className="typed "
-                  strings={["Hi" , "I'am Bogesh."]}
+                  strings={["Hiii" , "I'am Bogesh."]}
                   typeSpeed={80}
                 />
               <div data-aos="fade-up">
