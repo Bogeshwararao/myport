@@ -38,7 +38,7 @@ const Home = () => {
                   Sathyabama University. I'm a self-taught web developer. I love
                   contributing to open source communities. I am very much
                   facinated about learning new technologies, and to play
-                  around with them.
+                  around with them.....
                 </h5>
                 </div>
                 {/* <div className="mt-3">
